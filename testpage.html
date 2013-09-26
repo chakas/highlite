@@ -8,11 +8,19 @@
     $(document).ready(function(){
  	     $('p').highlite();
     });
+	function closeEditorWarning(){
+		if($('span.selected').length > 0){
+	    	return 'Are you sure?'
+	    }
+	}
+	window.onbeforeunload = closeEditorWarning;
   </script>
 </head>
 <body>
-  <p>If you click on me, I will disappear.</p>
-  <p>Click me away!</p>
-  <p>Click me too!</p>
+<pre>Hello world dajskdj kdjdakldajskasjsk djskjdkd dd d d ddkldkldkd d  dkdl kdl kl dkdl kdl kdl dkd k dkld kdl kd dkd kldkdlkdldkldkdldkldaslsdal
+sadksjlsf ldsjfdskl fjsdklfjlksdjfkdsjlkfdsklfjksfjdsf;lkflksl;dkfl;dkf   kflfk lf kf lkf kf kf sklfdks;lfkoerwioehe dsfjnkdsnf jsidfl csdoklm fsdjnkcxgsodjlkvcm,fndsxc fsdkkfdlsfksdkfds jkdsfkds jfds
+nfkfjldsjf dqawqpiepowj uwqeieoie eqopwo[po wqeo[pew ow oe ewo ewopw oe p[we e[
+mmznzn zn zn zmz nm znmz nmz nmz nakajoq opfwejhfsdfdskfmksdfkk l;sdf;ds;fmdsl fsdjkfjsdk 
+</pre>
 </body>
 </html>
